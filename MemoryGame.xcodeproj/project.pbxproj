@@ -14,6 +14,8 @@
 		2C0D08E52AE5E7C300A6CDCC /* MemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D08E42AE5E7C300A6CDCC /* MemoryGameTests.swift */; };
 		2C0D08EF2AE5E7C300A6CDCC /* MemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D08EE2AE5E7C300A6CDCC /* MemoryGameUITests.swift */; };
 		2C0D08F12AE5E7C300A6CDCC /* MemoryGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D08F02AE5E7C300A6CDCC /* MemoryGameUITestsLaunchTests.swift */; };
+		2C0D09002AE5E81E00A6CDCC /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D08FF2AE5E81E00A6CDCC /* MemoryGame.swift */; };
+		2C0D09022AE5E8A600A6CDCC /* CatMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D09012AE5E8A600A6CDCC /* CatMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2C0D08EA2AE5E7C300A6CDCC /* MemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0D08EE2AE5E7C300A6CDCC /* MemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameUITests.swift; sourceTree = "<group>"; };
 		2C0D08F02AE5E7C300A6CDCC /* MemoryGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C0D08FF2AE5E81E00A6CDCC /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		2C0D09012AE5E8A600A6CDCC /* CatMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				2C0D08D32AE5E7C100A6CDCC /* MemoryGameApp.swift */,
 				2C0D08D52AE5E7C100A6CDCC /* ContentView.swift */,
 				2C0D08D72AE5E7C300A6CDCC /* Assets.xcassets */,
+				2C0D08FF2AE5E81E00A6CDCC /* MemoryGame.swift */,
+				2C0D09012AE5E8A600A6CDCC /* CatMemoryGame.swift */,
 				2C0D08D92AE5E7C300A6CDCC /* Preview Content */,
 			);
 			path = MemoryGame;
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0D09002AE5E81E00A6CDCC /* MemoryGame.swift in Sources */,
+				2C0D09022AE5E8A600A6CDCC /* CatMemoryGame.swift in Sources */,
 				2C0D08D62AE5E7C100A6CDCC /* ContentView.swift in Sources */,
 				2C0D08D42AE5E7C100A6CDCC /* MemoryGameApp.swift in Sources */,
 			);
